@@ -52,7 +52,7 @@ $(function(){
     
   }
   if($(window).width() < 768){
-    $('.left__menu nav').append( $('.header__nav nav') );
+    $('.left__menu nav').append( $('.header__nav__list') );
   }
   
   
