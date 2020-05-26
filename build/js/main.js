@@ -19,6 +19,13 @@ $(function(){
           slidesToScroll: 1
         }
       },
+      {
+        breakpoint: 501,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
     ]
   });
   $('.article__slider').slick({
@@ -34,6 +41,13 @@ $(function(){
           slidesToScroll: 1
         }
       },
+      {
+        breakpoint: 501,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      }
     ]
   });
   if($(window).width() < 993){
@@ -51,7 +65,7 @@ $(function(){
     })
     
   }
-  if($(window).width() < 768){
+  if($(window).width() < 501){
     $('.left__menu nav').append( $('.header__nav__list') );
   }
   
