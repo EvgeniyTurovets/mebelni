@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="../css/main.css" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   </head>
@@ -496,12 +496,116 @@
 		</div>
 
 	</footer>
+	<div class="modal__one">
+		<div class="wrap">
+			<div class="modal-close">
+				<div></div>
+				<div></div>
+			</div>
+			<form>
+			<div class="modal__one__title">Купить в 1 клик</div>
+			<input type="text" placeholder="Ваше имя">
+			<input type="text" placeholder="Ваш телефон">
+			<textarea placeholder="Коментарий"></textarea>
+			<button type="submite">Отправить</button>
+			</form>
+		</div>
+	</div>
 	<div class="modal1">
-		<div class="wrap"></div>
+		
+		<div class="wrap">
+			<div class="modal-close">
+				<div></div>
+				<div></div>
+			</div>
+			<div class="tabs__top">
+				<div class="tabs__item active" id="tab1"><i class="fas fa-key"></i>Вход для покупателей</div>
+				<div class="tabs__item" id="tab2"><i class="fas fa-user"></i>Регистрация пользователя</div>
+			</div>
+			<div class="tabs__content active" id="for1">
+				<form class="tabs__content__form">
+					<div class="tabs__content__form__title">
+						Войти, используя эл.почту и пароль
+					</div>
+					<div class="tabs__content__form__wrap">
+						<input placeholder="Введите E-mail">
+						<input placeholder="Пароль">
+						<div class="tabs__button">
+							<button type="submite">Вход</button>
+							<a href="">Получить пароль</a>
+						</div>
+					</div>
+				</form>
+				<form class="tabs__content__form">
+					<div class="tabs__content__form__title">
+						Войти, используя эл.почту и пароль
+					</div>
+					<div class="tabs__content__form__wrap">
+						<input placeholder="Введите E-mail">
+						
+						<div class="tabs__button">
+							<button type="submite">Вход</button>
+							
+						</div>
+					</div>
+				</form>
+				<div class="modal__social">
+					<div class="tabs__content__form__title">
+						Войти, используя эл.почту и пароль
+					</div>
+					<div class="social">
+						<a href="" class="ivk">
+							<i class="fab fa-vk"></i>
+						</a>
+						<a href="" class="ifb">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="" class="itw">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="" class="igp">
+							<i class="fab fa-google-plus-g"></i>
+						</a>
+						<a href="" class="iinst">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="tabs__content" id="for2">
+				<form class="content__reg">
+					<div class="content__reg__wrap">
+						<input type="text" placeholder="Имя">
+						<input type="text" placeholder="Фамилия*">
+					</div>
+					<div class="content__reg__wrap">
+						<input type="text" placeholder="Введите E-mail*">
+						<input type="text" placeholder="Имя">
+					</div>
+					<div class="content__reg__wrap">
+						<input type="text" placeholder="Имя">
+						<input type="text" placeholder="Имя">
+					</div>
+					<div class="content__reg__mess">Пароль должен содержать 
+						минимум 6 символов</div>
+					<div class="content__reg__check">
+						<div class="control-group">
+							<label class="control control-checkbox">
+								Я ознакомлен с условиями и даю согласие на обработку личных данных
+									<input type="checkbox" checked="checked" />
+								<div class="control_indicator"></div>
+							</label>
+							
+						</div>
+					</div>
+					<div class="reg__button"><button type="submite">Зарегистрироваться</button></div>
+				</form>
+			</div>
+		</div>
 	</div>
    </div>
     <script src="../js/jquery.js"></script>
-    <script src="../js/slick.js"></script>
+	<script src="../js/slick.js"></script>
     <script src="../js/main.js"></script>
   </body>
 </html>
