@@ -1277,6 +1277,10 @@ body.hidden {
 .nav__slider {
     margin: 0 -1vw;
     margin-top: 2vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
     z-index: 2;
 }
@@ -1284,6 +1288,7 @@ body.hidden {
 .nav__slider__item {
     display: block;
     margin: 0 1vw;
+    width: 50%;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
@@ -5133,6 +5138,7 @@ select {
 
     .nav__slider__item {
         height: 50%;
+        width: 100%;
     }
 
     .nav__slider__item:first-child {
