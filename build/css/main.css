@@ -1539,6 +1539,7 @@ body.hidden {
 }
 
 .more-link {
+    background-color: #ffffff;
     display: block;
     margin: auto;
     padding: 1vw 2vw;
@@ -4947,7 +4948,7 @@ select {
     }
 
     .header .header__top {
-        margin-bottom: 1.2vw;
+        margin-bottom: 1vw;
     }
 
     .header__bot__serch input {
@@ -5013,6 +5014,10 @@ select {
 
     .slider__section {
         margin-top: 1.5vw;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
     }
 
     .more-link {
@@ -5039,5 +5044,130 @@ select {
         font-size: 0.8vw;
         height: 1.4vw;
         width: 1.4vw;
+    }
+
+    .acticle__img {
+        height: 11vw;
+    }
+
+    .article__item {
+        margin: 0 0.5vw;
+    }
+
+    .acticle__img span {
+        font-size: 0.7vw;
+    }
+
+    .article__title {
+        font-size: 0.9vw;
+        margin-bottom: 1vw;
+    }
+
+    .article__about {
+        font-size: 0.8vw;
+    }
+
+    .subscr__title {
+        font-size: 0.9vw;
+    }
+
+    .article {
+        margin-top: 3vw;
+        z-index: 0;
+    }
+
+    .subscr button {
+        font-size: 0.9vw;
+    }
+
+    .subscr input {
+        font-size: 0.9vw;
+    }
+
+    .subscr input::-webkit-input-placeholder {
+        font-size: 0.9vw;
+    }
+
+    .subscr input::-moz-placeholder {
+        font-size: 0.9vw;
+    }
+
+    .subscr input::-ms-input-placeholder {
+        font-size: 0.9vw;
+    }
+
+    .subscr input::placeholder {
+        font-size: 0.9vw;
+    }
+
+    .article .grey-fon {
+        top: 0vw;
+        right: 16vw;
+    }
+
+    .left__menu {
+        width: 18vw;
+    }
+
+    .app {
+        padding-left: 18vw;
+    }
+
+    .header__contact {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .contact__phone {
+        margin-bottom: 0;
+        margin-right: 2vw;
+        font-size: 1vw;
+    }
+
+    .big__slider {
+        width: 60%;
+    }
+
+    .nav__slider__item {
+        height: 50%;
+    }
+
+    .nav__slider__item:first-child {
+        margin-bottom: 0.5vw;
+    }
+
+    .nav__slider__item:last-child {
+        margin-top: 0.5vw;
+    }
+
+    .big__slider__item {
+        height: 25vw;
+    }
+
+    .nav__slider {
+        margin: 0 0;
+        padding-left: 0.5vw;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 40%;
+    }
+
+    .slick-arrow {
+        height: 2vw;
+        width: 2vw;
     }
 }

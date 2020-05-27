@@ -15,12 +15,12 @@ $(function(){
 
   $('.big__slider').slick();
 
-  $('.nav__slider').slick({
-    infinite: true,
-    slidesToShow: 2,
-    arrows: false,
-    slidesToScroll: 2
-  });
+  // $('.nav__slider').slick({
+  //   infinite: true,
+  //   slidesToShow: 2,
+  //   arrows: false,
+  //   slidesToScroll: 2
+  // });
 
   $('.special__slider').slick({
     infinite: true,
@@ -54,10 +54,17 @@ $(function(){
 
   $('.article__slider').slick({
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     arrows: true,
     slidesToScroll: 1,
     responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
       {
         breakpoint: 1200,
         settings: {
