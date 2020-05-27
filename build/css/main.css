@@ -5176,4 +5176,8 @@ select {
         height: 2vw;
         width: 2vw;
     }
+
+    .left__menu__submenu {
+        left: 18vw;
+    }
 }
