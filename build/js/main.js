@@ -133,5 +133,8 @@ $(function(){
           setTimeout(sayHi3, 100);
 		}
   });
+  $('.filter__top__left').on('touchstart', function () {
+    $('.filter__top__right').slideToggle()
+  })
 })
 
