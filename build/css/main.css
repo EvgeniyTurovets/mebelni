@@ -825,6 +825,7 @@ body.hidden {
     margin-top: 2px;
     margin-left: 0.6vw;
     width: 1.1vw;
+    height: 1.4vw;
 }
 
 .left__menu__item > a:hover {
@@ -3154,7 +3155,7 @@ select {
 }
 
 .tovar__wrap .section__name {
-    margin-bottom: 7vw;
+    margin-bottom: 5vw;
 }
 
 .tovar__top {
@@ -3165,7 +3166,7 @@ select {
 }
 
 .tovar__top__left {
-    width: 70%;
+    width: 65%;
 }
 
 .tovar__slider__main {
@@ -3834,7 +3835,8 @@ select {
     .left__menu__item a img {
         margin-top: 2px;
         margin-left: 1.6vw;
-        width: 2vw;
+        width: 1vw;
+        height: 1.4vw;
     }
 
     .header__contact {
@@ -5179,5 +5181,43 @@ select {
 
     .left__menu__submenu {
         left: 18vw;
+    }
+
+    .footer__copi p {
+        font-size: 0.9vw;
+    }
+
+    .footer__contact__item span {
+        font-size: 1vw;
+    }
+
+    .left__menu__submenu {
+        padding-top: 6vw;
+    }
+
+    .catalog2 .special__name {
+        font-size: 1.1vw;
+    }
+
+    .catalog__wrap .special__item {
+        width: -webkit-calc(100% / 5 - 1vw);
+        width: calc(100% / 5 - 1vw);
+        margin: 0.5vw;
+    }
+
+    .catalog__wrap {
+        margin: 0 -0.5vw;
+    }
+
+    .filter__bot {
+        margin-bottom: 1vw;
+    }
+
+    .catalog {
+        margin-top: 3vw;
+    }
+
+    .catalog .more-link {
+        margin-top: 1.5vw;
     }
 }
