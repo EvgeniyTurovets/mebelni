@@ -1,17 +1,40 @@
 $(function(){
+
+  $('.tovar__slider__main').slick({
+    arrows: false,
+    fade: true,
+    asNavFor: '.tovar__slider__nav'
+  });
+  
+  $('.tovar__slider__nav').slick({
+    slidesToShow: 4,
+    arrows: false,
+    focusOnSelect: true,
+    asNavFor: '.tovar__slider__main'
+  });
+
   $('.big__slider').slick();
+
   $('.nav__slider').slick({
     infinite: true,
     slidesToShow: 2,
     arrows: false,
     slidesToScroll: 2
   });
+
   $('.special__slider').slick({
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     arrows: true,
     slidesToScroll: 1,
     responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
       {
         breakpoint: 1200,
         settings: {
@@ -28,6 +51,7 @@ $(function(){
       },
     ]
   });
+
   $('.article__slider').slick({
     infinite: true,
     slidesToShow: 4,
@@ -50,6 +74,7 @@ $(function(){
       }
     ]
   });
+
   if($(window).width() < 993){
     $('.left__menu nav').append( $('.header__contact') );
 
