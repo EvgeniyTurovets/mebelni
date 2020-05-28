@@ -3100,8 +3100,8 @@ select {
 
 .tovar {
     position: relative;
-    margin-top: 4vw;
-    margin-bottom: 10vw;
+    margin-top: 3vw;
+    margin-bottom: 8vw;
 }
 
 .breadcrums {
@@ -3147,7 +3147,7 @@ select {
 .breadcrums {
     color: #53555b;
     font-size: 1.1vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
 }
 
 .breadcrums li {
@@ -3155,7 +3155,25 @@ select {
 }
 
 .tovar__wrap .section__name {
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
+}
+
+.tovar__wrap .grey-fon.first {
+    top: 35%;
+    left: -4vw;
+}
+
+.tovar__wrap .grey-fon.two {
+    top: 20%;
+    right: -4vw;
+}
+
+.tovar__wrap .grey-fon.three {
+    top: 80%;
+    right: 40%;
+    -webkit-transform: rotate(55deg);
+    -ms-transform: rotate(55deg);
+    transform: rotate(55deg);
 }
 
 .tovar__top {
@@ -3165,7 +3183,12 @@ select {
     display: flex;
 }
 
-.tovar__top__left {
+.tovar__box {
+    width: 100%;
+    position: relative;
+}
+
+.tovar__slider {
     width: 65%;
 }
 
@@ -3173,8 +3196,18 @@ select {
     margin-bottom: 1vw;
 }
 
+.tovar__slider__main__img {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
 .tovar__slider__main__img img {
-    width: 100%;
+    min-width: 100%;
+    height: 38vw;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .tovar__slider__nav {
@@ -3184,6 +3217,9 @@ select {
 
 .tovar__slider__nav__img {
     padding-right: 1vw;
+    height: 11vw;
+    -o-object-fit: cover;
+    object-fit: cover;
     cursor: pointer;
 }
 
@@ -3207,6 +3243,7 @@ select {
 
 .tovar__tabs {
     padding-top: 3vw;
+    width: 65%;
 }
 
 .tovar__tabs {
@@ -3235,7 +3272,7 @@ select {
 
 .tovar__tabs__content p {
     font-size: 1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
 }
 
 .punk {
@@ -3243,6 +3280,8 @@ select {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    font-size: 1vw;
+    margin-bottom: 2vw;
 }
 
 .punk div {
@@ -3250,7 +3289,234 @@ select {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    border-bottom: 1px solid dotted;
+    margin: 0 0.4vw;
+    border-bottom: 1.5px solid;
+    border-bottom-style: dotted;
+}
+
+.tovar__tabs__wrap {
+    min-height: 50vw;
+}
+
+.tovar__tabs__content {
+    display: none;
+}
+
+.tovar__tabs__content.active {
+    display: block;
+}
+
+.tovar__data {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    padding-left: 2vw;
+}
+
+.tovar__data__wrap {
+    padding: 1vw;
+    margin-bottom: 1vw;
+    background-color: #efe6e8;
+}
+
+.tovar__data__price {
+    font-size: 2vw;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+}
+
+.select__color {
+    height: 4vw;
+    margin-bottom: 1vw;
+    position: relative;
+}
+
+.select__color__wrap {
+    width: 100%;
+    height: 4vw;
+    overflow: hidden;
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.select__color__wrap.active-select {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+}
+
+.select__color__item {
+    width: 100%;
+    height: 4vw;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    cursor: pointer;
+}
+
+.select__color__item.active {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.tovar__color__title {
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+
+.tovar__buy__button {
+    width: 100%;
+    background-color: #bc4952;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 1vw 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.tovar__buy__button:hover {
+    opacity: 0.9;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.tovar__buy__button img {
+    margin-right: 0.5vw;
+    width: 1.5vw;
+}
+
+.tovat__buy__onclick {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.5vw;
+    cursor: pointer;
+    color: #bc4952;
+    font-size: 1vw;
+}
+
+.tovat__buy__onclick span {
+    border-bottom: 1px dashed;
+    padding-bottom: 0.3vw;
+}
+
+.tovat__buy__onclick img {
+    width: 1vw;
+    height: 1vw;
+    margin-right: 0.5vw;
+}
+
+.tovar__service__item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 500;
+    color: #53555b;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+.tovar__service__item svg {
+    width: 3vw;
+    height: 3vw;
+}
+
+.tovar__service__item img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.tovar__service__item svg g {
+    fill: #53555b;
+}
+
+.tovar__service__item span {
+    margin-left: 2vw;
+    font-size: 1vw;
+}
+
+.tovar__service {
+    margin-top: 2vw;
+}
+
+.tovar__service__deliveri {
+    font-size: 1vw;
+    color: #53555b;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.view-all {
+    font-size: 1vw;
+    color: #53555b;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    padding: 0.5vw 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    font-weight: 500;
+    padding-right: 2vw;
+}
+
+.view-all img {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 1vw;
+}
+
+.view-all i {
+    position: absolute;
+    right: 0.5vw;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 @media (max-width: 1199px) {
@@ -3324,7 +3590,7 @@ select {
     }
 
     .left__menu__item > a {
-        font-size: 1.2vw;
+        font-size: 1.1vw;
     }
 
     .left__menu__submenu .left__menu__submenu-wrap div {
@@ -5281,5 +5547,156 @@ select {
 
     .catalog .more-link {
         margin-top: 1.5vw;
+    }
+}
+
+@media (max-width: 1199px) {
+    .breadcrums {
+        font-size: 1.5vw;
+    }
+
+    .breadcrums > a {
+        padding-right: 1vw;
+        margin-right: 1vw;
+    }
+
+    .breadcrums a i {
+        font-size: 1vw;
+        margin: 0 1vw;
+    }
+
+    .tovar__data__price {
+        font-size: 2.5vw;
+    }
+
+    .tovar__color__title {
+        font-size: 1.2vw;
+    }
+
+    .tovar__buy__button {
+        font-size: 1.3vw;
+    }
+
+    .tovat__buy__onclick {
+        font-size: 1.3vw;
+    }
+
+    .tovar__service__item span {
+        font-size: 1.3vw;
+    }
+
+    .tovar__service__deliveri {
+        font-size: 1.2vw;
+    }
+
+    .view-all img {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+
+    .tovar__tabs__item {
+        font-size: 1.2vw;
+    }
+
+    .tovar__tabs__content p {
+        font-size: 1.2vw;
+        line-height: 1.2;
+        margin-bottom: 1.5vw;
+    }
+
+    .punk {
+        font-size: 1.2vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .tovar__wrap .grey-fon.two {
+        right: -2vw;
+    }
+
+    .tovar__data__price {
+        font-size: 3vw;
+    }
+
+    .tovar__color__title {
+        font-size: 2vw;
+    }
+
+    .select__color {
+        margin-bottom: 2vw;
+    }
+
+    .tovar__buy__button {
+        font-size: 2vw;
+    }
+
+    .tovar__buy__button img {
+        margin-right: 1vw;
+        width: 2vw;
+    }
+
+    .tovat__buy__onclick {
+        font-size: 1.7vw;
+    }
+
+    .tovat__buy__onclick img {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .tovar__service__item svg {
+        height: 4vw;
+        width: 4vw;
+    }
+
+    .tovar__service__item img {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .tovar__service__item {
+        margin-bottom: 2vw;
+    }
+
+    .tovar__service__deliveri {
+        font-size: 1.5vw;
+    }
+
+    .tovar__slider__main__img img {
+        height: 50vw;
+    }
+
+    .tovar__slider__nav__img {
+        height: 14vw;
+    }
+
+    .tovar__service__item span {
+        font-size: 1.8vw;
+    }
+
+    .view-all {
+        font-size: 1.6vw;
+        line-height: 1.1;
+    }
+
+    .view-all img {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .tovar__tabs__item {
+        font-size: 1.9vw;
+    }
+
+    .tovar__tabs__content p {
+        font-size: 1.8vw;
+    }
+
+    .punk {
+        font-size: 1.8vw;
+    }
+
+    .tovat__buy__onclick {
+        margin-top: 2vw;
     }
 }

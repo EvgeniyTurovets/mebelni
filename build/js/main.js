@@ -21,7 +21,7 @@ $(function(){
   //   arrows: false,
   //   slidesToScroll: 2
   // });
-
+ 
   $('.special__slider').slick({
     infinite: true,
     slidesToShow: 5,
@@ -147,6 +147,11 @@ $(function(){
     $('.modal__one').fadeIn()
     $('.modal__one').addClass('active')
   })
+ 
+  $('.onclick').click(function(){
+    $('.modal__one').fadeIn()
+    $('.modal__one').addClass('active')
+  })
   $('.modal-close').click(function(){
     $('.modal__one').fadeOut(100)
     function sayHi3() {
@@ -167,6 +172,40 @@ $(function(){
   });
   $('.filter__top__left').on('touchstart', function () {
     $('.filter__top__right').slideToggle()
+  })
+
+  $('.tovar__tabs__item').on('click', function(){
+
+    
+
+    $('.tovar__tabs__item').removeClass('active');
+    $('.tovar__tabs__content').fadeOut(100);
+    let thisDataTab = $(this).attr('data-tab');
+    $(this).addClass('active');
+    setTimeout(function addContent(thisDataTab){
+      addContent2()
+    }, 300);
+    function addContent2(){
+      
+      $('.tovar__tabs__content').removeClass('active');
+      $('.tovar__tabs__content').eq(thisDataTab).fadeIn();
+    }
+  })
+  
+ 
+  
+  $('.select__color__item').on('click', function(){
+    if($('.active-select').length){
+      $('.select__color__item').removeClass('active')
+      $('.select__color input').attr('value', $(this).css('background-color'))
+      $(this).toggleClass('active')
+      
+      $('.select__color__wrap').removeClass('active-select')
+    }
+   else{
+    $('.select__color__wrap').addClass('active-select')
+   }
+  
   })
 })
 
