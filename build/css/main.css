@@ -3217,7 +3217,7 @@ select {
 
 .tovar__slider__nav__img {
     padding-right: 1vw;
-    height: 11vw;
+    height: 9vw;
     -o-object-fit: cover;
     object-fit: cover;
     cursor: pointer;
@@ -3225,6 +3225,9 @@ select {
 
 .tovar__slider__nav__img img {
     width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .tovar__tabs__nav {
@@ -5548,6 +5551,153 @@ select {
     .catalog .more-link {
         margin-top: 1.5vw;
     }
+
+    .catalog .section__name {
+        margin-bottom: 2vw;
+    }
+
+    .catalog {
+        margin-top: 2vw;
+    }
+
+    .categori__item {
+        padding: 1vw;
+        margin-right: 1vw;
+    }
+
+    .breadcrums {
+        font-size: 1vw;
+    }
+
+    .tovar__data__price {
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+    }
+
+    .select__color__wrap {
+        height: 3vw;
+    }
+
+    .select__color__item {
+        height: 3vw;
+    }
+
+    .tovar__slider {
+        width: 65%;
+    }
+
+    .tovar__tabs {
+        width: 65%;
+    }
+
+    .tovar__data {
+        width: 35%;
+        padding-left: 3vw;
+    }
+
+    .tovar__buy__button {
+        padding: 0.8vw;
+    }
+
+    .tovar__buy__button img {
+        width: 1.2vw;
+    }
+
+    .tovat__buy__onclick {
+        font-size: 0.9vw;
+    }
+
+    .tovar__data__wrap {
+        padding: 1vw 2vw;
+    }
+
+    .tovar__service__item svg {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+
+    .view-all {
+        font-size: 0.9vw;
+    }
+
+    .tovar__service__item span {
+        margin-left: 1vw;
+        font-size: 0.9vw;
+    }
+
+    .tovar__service__deliveri {
+        font-size: 0.9vw;
+    }
+
+    .tovar__slider__nav__img {
+        padding-right: 1vw;
+    }
+
+    .tovar__slider__nav {
+        margin-right: -1vw;
+    }
+
+    .punk {
+        font-size: 0.9vw;
+        margin-bottom: 1vw;
+    }
+
+    .tovar__tabs__content p {
+        font-size: 0.9vw;
+    }
+
+    .tovar__tabs__wrap {
+        min-height: 20vw;
+    }
+
+    .map {
+        height: 40vw;
+    }
+
+    .footer__form {
+        padding-top: 2vw;
+    }
+
+    .section__name {
+        font-size: 1.3vw;
+    }
+
+    .footer__form__tel {
+        font-size: 1.3vw;
+    }
+
+    .footer__form form input {
+        font-size: 0.9vw;
+    }
+
+    .footer__form form textarea {
+        height: 8vw;
+        font-size: 0.9vw;
+    }
+
+    .footer__menu li a {
+        font-size: 0.9vw;
+    }
+
+    .header__bot__serch input {
+        font-size: 0.9vw;
+    }
+
+    .header__bot__serch input::-webkit-input-placeholder {
+        font-size: 0.9vw;
+    }
+
+    .header__bot__serch input::-moz-placeholder {
+        font-size: 0.9vw;
+    }
+
+    .header__bot__serch input::-ms-input-placeholder {
+        font-size: 0.9vw;
+    }
+
+    .header__bot__serch input::placeholder {
+        font-size: 0.9vw;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -5744,7 +5894,7 @@ select {
     }
 
     .tovar__slider__nav__img {
-        height: 23vw;
+        height: 18vw;
     }
 
     .tovar__tabs {
