@@ -5759,7 +5759,8 @@ select {
     }
 
     .categori__item {
-        padding: 0.8vw 1vw;
+        padding: 0.7vw 0.9vw;
+        font-size: 0.9vw;
     }
 }
 
