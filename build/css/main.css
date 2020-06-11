@@ -2599,7 +2599,7 @@ footer .grey-fon.first {
 }
 
 .categori__item {
-    padding: 1vw 2vw;
+    padding: 1vw 1.2vw;
     border: 1px solid transparent;
     -webkit-border-radius: 25px;
     border-radius: 25px;
@@ -2607,7 +2607,7 @@ footer .grey-fon.first {
     text-decoration: none;
     margin-right: 2vw;
     color: #ffffff;
-    font-size: 1.1vw;
+    font-size: 1vw;
     background-color: #bc4952;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -2646,8 +2646,8 @@ footer .grey-fon.first {
 
 .filter__top__left {
     color: #ffffff;
-    font-size: 1.1vw;
-    margin-right: 4vw;
+    font-size: 0.9vw;
+    margin-right: 3vw;
 }
 
 .filter__top__left i {
@@ -2722,7 +2722,7 @@ select {
 }
 
 .select__item {
-    margin-right: 3vw;
+    margin-right: 2vw;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2734,7 +2734,7 @@ select {
 }
 
 .select__item select {
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 
 .select__item i {
@@ -5659,7 +5659,7 @@ select {
     }
 
     .section__name {
-        font-size: 1.3vw;
+        font-size: 1.2vw;
     }
 
     .footer__form__tel {
@@ -5697,6 +5697,69 @@ select {
 
     .header__bot__serch input::placeholder {
         font-size: 0.9vw;
+    }
+
+    .header__bot__serch input {
+        height: 2.5vw;
+    }
+
+    .left__menu .logo {
+        margin-top: 0.2vw;
+        margin-bottom: 1.2vw;
+    }
+
+    .more-link {
+        padding: 0.8vw 1vw;
+    }
+
+    .header__bot__serch input {
+        width: 32vw;
+    }
+
+    .filter__bot .control {
+        font-size: 1vw;
+    }
+
+    .filter__bot .control_indicator {
+        height: 1.5vw;
+        width: 1.5vw;
+    }
+
+    .filter__bot .control-checkbox .control_indicator:after {
+        left: 0.3vw;
+        top: 0.1vw;
+    }
+
+    .filter__bot .control {
+        padding-top: 0.3vw;
+    }
+
+    .select__bot span {
+        font-size: 0.9vw;
+    }
+
+    .select__bot select {
+        font-size: 0.9vw;
+    }
+
+    .filter__bot {
+        margin-top: 1vw;
+    }
+
+    .filter__top {
+        margin-top: 1vw;
+    }
+
+    .select__item select {
+        font-size: 0.9vw;
+    }
+
+    .filter__bot .control {
+        padding-left: 2vw;
+    }
+
+    .categori__item {
+        padding: 0.8vw 1vw;
     }
 }
 

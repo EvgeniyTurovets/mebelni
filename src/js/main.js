@@ -7,7 +7,7 @@ $(function(){
   });
   
   $('.tovar__slider__nav').slick({
-    slidesToShow: 4,
+    slidesToShow: 5,
     arrows: false,
     focusOnSelect: true,
     asNavFor: '.tovar__slider__main'

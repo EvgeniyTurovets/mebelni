@@ -1232,14 +1232,14 @@ footer .grey-fon.first{
   flex-wrap: wrap;
 }
 .categori__item{
-  padding: 1vw 2vw;
+  padding: 1vw 1.2vw;
   border: 1px solid transparent;
   border-radius: 25px;
   display: block;
   text-decoration: none;
   margin-right: 2vw;
   color: #ffffff;
-  font-size: 1.1vw;
+  font-size: 1vw;
   background-color: $bordo;
   transition: 0.3s;
 }
@@ -1264,8 +1264,8 @@ footer .grey-fon.first{
 }
 .filter__top__left{
   color: #ffffff;
-  font-size: 1.1vw;
-  margin-right: 4vw;
+  font-size: 0.9vw;
+  margin-right: 3vw;
 }
 .filter__top__left i{
   display: none;
@@ -1325,12 +1325,12 @@ select {
   }
 
 .select__item{
-  margin-right: 3vw;
+  margin-right: 2vw;
   display: flex;
   align-items: center;
 }
 .select__item select{
-  font-size: 1.1vw;
+  font-size: 1vw;
 }
 .select__item i{
   font-size: 0.8vw;
@@ -1554,7 +1554,7 @@ select {
 // товар
 .tovar{
   position: relative;
-  margin-top: 3vw;
+  margin-top: 1vw;
   margin-bottom: 8vw;
 }
 .breadcrums{
@@ -1614,7 +1614,7 @@ select {
   position: relative;
 }
 .tovar__slider{
-  width: 65%;
+  width: 70%;
 }
 .tovar__slider__main{
   margin-bottom: 1vw;
@@ -1633,12 +1633,14 @@ select {
 }
 .tovar__slider__nav__img{
   padding-right: 1vw;
-  height: 11vw;
+  height: 9vw;
   object-fit: cover;
   cursor: pointer;
 }
 .tovar__slider__nav__img img{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .tovar__tabs__nav{
   display: flex;
@@ -1649,7 +1651,7 @@ select {
 }
 .tovar__tabs{
   padding-top: 3vw;
-  width: 65%;
+  width: 70%;
 }
 .tovar__tabs{
   color: #53555b;
@@ -1695,7 +1697,7 @@ select {
   position: absolute;
   top: 0;
   right: 0;
-  width: 35%;
+  width: 30%;
   padding-left: 2vw;
 }
 .tovar__data__wrap{
@@ -3170,6 +3172,163 @@ select {
   .catalog .more-link{
     margin-top: 1.5vw;
   }
+  .catalog .section__name {
+    margin-bottom: 2vw;
+  }
+  .catalog {
+    margin-top: 2vw;
+  }
+  .categori__item{
+    padding: 1vw;
+    margin-right: 1vw;
+  }
+  .breadcrums{
+    font-size: 1vw;
+  }
+
+  //товар
+  .tovar__data__price{
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+  }
+  .select__color__wrap{
+    height: 3vw;
+  }
+  .select__color__item{
+    height: 3vw;
+  }
+  .tovar__slider{
+    width: 65%;
+  }
+  .tovar__tabs{
+    width: 65%;
+  }
+  .tovar__data {
+    width: 35%;
+    padding-left: 3vw;
+  }
+  .tovar__buy__button{
+    padding: 0.8vw;
+  }
+  .tovar__buy__button img {
+    width: 1.2vw;
+  }
+  .tovat__buy__onclick{
+    font-size: 0.9vw;
+  }
+  .tovar__data__wrap{
+    padding: 1vw 2vw;
+  }
+  .tovar__service__item svg{
+    height: 2.5vw;
+    width: 2.5vw;
+  }
+  .view-all{
+    font-size: 0.9vw;
+  }
+  .tovar__service__item span {
+    margin-left: 1vw;
+    font-size: 0.9vw;
+  }
+  .tovar__service__deliveri{
+    font-size: 0.9vw;
+  }
+  .tovar__slider__nav__img{
+    padding-right: 1vw;
+  }
+  .tovar__slider__nav{
+   margin-right: -1vw;
+  }
+  .punk{
+    font-size: 0.9vw;
+    margin-bottom: 1vw;
+  }
+  .tovar__tabs__content p{
+    font-size: 0.9vw;
+  }
+  .tovar__tabs__wrap {
+    min-height: 20vw;
+  }
+
+  //footer
+  .map{
+    height: 40vw;
+  }
+  .footer__form{
+    padding-top: 2vw;
+  }
+  .section__name{
+    font-size: 1.2vw;
+  }
+  .footer__form__tel {
+    font-size: 1.3vw;
+  }
+  .footer__form form input{
+    font-size: 0.9vw;
+  }
+  .footer__form form textarea {
+    height: 8vw;
+    font-size: 0.9vw;
+  }
+  .footer__menu li a{
+    font-size: 0.9vw;
+  }
+  .header__bot__serch input{
+    font-size: 0.9vw;
+  }
+  .header__bot__serch input::placeholder{
+    font-size: 0.9vw;
+  }
+
+  //новые правки
+  .header__bot__serch input{
+    height: 2.5vw;
+  }
+  .left__menu .logo{
+    margin-top: 0.2vw;
+    margin-bottom: 1.2vw;
+  }
+  .more-link{
+    padding: 0.8vw 1vw;
+  }
+  .header__bot__serch input{
+    width: 32vw;
+  }
+  .filter__bot .control{
+    font-size: 1vw;
+  }
+  .filter__bot .control_indicator{
+    height: 1.5vw;
+    width: 1.5vw;
+  }
+  .filter__bot .control-checkbox .control_indicator:after {
+    left: 0.3vw;
+    top: 0.1vw;
+  }
+  .filter__bot .control{
+    padding-top: 0.3vw;
+  }
+  .select__bot span{
+    font-size: 0.9vw;
+  }
+  .select__bot select{
+    font-size: 0.9vw;
+  }
+  .filter__bot{
+    margin-top: 1vw;
+  }
+  .filter__top{
+    margin-top: 1vw;
+  }
+  .select__item select{
+    font-size: 0.9vw;
+  }
+  .filter__bot .control{
+    padding-left: 2vw;
+  }
+  .categori__item{
+    padding: 0.8vw 1vw;
+  }
 }
 
 
@@ -3289,5 +3448,146 @@ select {
   }
   .tovat__buy__onclick{
     margin-top: 2vw;
+  }
+}
+@media(max-width: 767px){
+  .breadcrums{
+    font-size: 4vw;
+    margin-bottom: 7vw;
+  }
+  .breadcrums a i{
+    font-size: 3vw;
+  }
+  .breadcrums > a {
+    padding-right: 2vw;
+    margin-right: 2vw;
+  }
+  .tovar{
+    margin-top: 6vw;
+  }
+  .tovar__wrap .section__name{
+    margin-bottom: 6vw;
+  }
+  .tovar__data{
+    position: relative;
+    width: 100%;
+    margin-top: 5vw;
+    padding-left: 0;
+    order: 1;
+  }
+  .tovar__slider{
+    width: 100%;
+  }
+  .tovar__slider__main__img img{
+    height: 77vw;
+  }
+  .tovar__slider__nav__img {
+    height: 18vw;
+  }
+  .tovar__tabs {
+    order: 2;
+    padding-top: 5vw;
+    width: 100%;
+  }
+  .tovar__tabs__item{
+    font-size: 3.5vw;
+  }
+  .tovar__tabs__content p {
+    font-size: 3.5vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+  .tovar__tabs__nav{
+    margin-bottom: 3vw;
+    padding-bottom: 3vw;
+  }
+  .punk{
+    font-size: 3.5vw;
+    margin-bottom: 3vw;
+  }
+  .tovar__box{
+    display: flex;
+    flex-direction: column;
+  }
+  .tovar__data__wrap{
+    padding: 5vw;
+  }
+  .tovar__data__price{
+    font-size: 7vw;
+  }
+  .tovar__color__title {
+    font-size: 4vw;
+    margin-top: 7vw;
+  }
+  .select__color{
+    height: 10vw;
+    margin-bottom: 10vw;
+  }
+  .select__color__wrap{
+    height: 10vw;
+  }
+  .select__color__item{
+    height: 10vw;
+  }
+  .tovar__buy__button{
+    font-size: 6vw;
+    padding: 2vw 0;
+  }
+  .tovar__buy__button img {
+    margin-right: 2vw;
+    width: 5vw;
+  }
+  .tovat__buy__onclick{
+    font-size: 3.7vw;
+    margin-top: 4vw;
+  }
+  .tovat__buy__onclick img{
+    height: 3.5vw;
+    width: 3.5vw;
+    margin-right: 1vw;
+  }
+  .tovar__service {
+    margin-top: 10vw;
+  }
+  .tovar__service__item svg{
+    height: 10vw;
+    width: 10vw;
+  }
+  .tovar__service__item img{
+    height: 10vw;
+    width: 10vw;
+  }
+  .tovar__service__item span{
+    font-size: 3.8vw;
+    margin-left: 4vw;
+  }
+  .tovar__service__item{
+    margin-bottom: 4vw;
+  }
+  .tovar__service__deliveri{
+    font-size: 3.5vw;
+    margin-top: 6vw;
+  }
+  .view-all{
+    font-size: 3.6vw;
+  }
+  .view-all img {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 4vw;
+  }
+  .tovar__tabs__wrap {
+    min-height: 85vw;
+  }
+  .tovar__wrap .grey-fon.three{
+    top: 90%;
+    height: 30vw;
+    width: 30vw;
+  }
+  .tovar__wrap .grey-fon.first{
+    display: none;
+  }
+  .tovar__wrap .grey-fon.two{
+    display: none;
   }
 }
