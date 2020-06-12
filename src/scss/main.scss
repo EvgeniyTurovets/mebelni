@@ -701,7 +701,8 @@ body.hidden{
 }
 .footer__form{
   position: absolute;
-  left: 0;
+  left: auto;
+  right: 0;
   top: 0;
   bottom: 0;
   width: 40%;
